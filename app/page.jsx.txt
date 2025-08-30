@@ -1,0 +1,18 @@
+import React from "react";
+import Hero from "./components/Hero";
+import DailyCards from "./components/DailyCards";
+import MeditationTimer from "./components/MeditationTimer";
+import GratitudeJournal from "./components/GratitudeJournal";
+import QuoteOfTheDay from "./components/QuoteOfTheDay";
+
+export default function Page() {
+  return (
+    <main className="p-8 space-y-8">
+      <Hero />
+      <DailyCards />
+      <MeditationTimer />
+      <GratitudeJournal />
+      <QuoteOfTheDay />
+    </main>
+  );
+}

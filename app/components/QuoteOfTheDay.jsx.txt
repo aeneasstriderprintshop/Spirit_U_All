@@ -1,0 +1,10 @@
+import React from "react";
+
+export default function QuoteOfTheDay() {
+  return (
+    <div className="p-6 bg-yellow-100 rounded text-center">
+      <h2 className="text-xl font-semibold mb-2">Quote of the Day</h2>
+      <p>"Peace comes from within. Do not seek it without." – Buddha</p>
+    </div>
+  );
+}

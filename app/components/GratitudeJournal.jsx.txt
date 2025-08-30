@@ -1,0 +1,10 @@
+import React from "react";
+
+export default function GratitudeJournal() {
+  return (
+    <div className="p-6 bg-green-100 rounded">
+      <h2 className="text-2xl font-semibold mb-2">Gratitude Journal</h2>
+      <textarea className="w-full p-2 rounded border" rows="4" placeholder="Write what you're grateful for..."></textarea>
+    </div>
+  );
+}
